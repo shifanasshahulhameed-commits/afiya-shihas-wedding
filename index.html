@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afiya & Shihas | Nikah Invitation</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #eee5d5;
+  font-family: Georgia, serif;
+  color: #756044;
+  text-align: center;
+}
+
+.card {
+  max-width: 520px;
+  min-height: 100vh;
+  margin: 15px auto;
+  padding: 55px 22px;
+  background: #fffdf8;
+  border: 5px double #c6a66c;
+  outline: 1px solid #c6a66c;
+  outline-offset: -13px;
+}
+
+.top {
+  color: #ae9161;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.flower {
+  font-size: 35px;
+  margin: 25px;
+}
+
+.small {
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  color: #aa8953;
+  margin: 18px 0;
+}
+
+.amp {
+  font-size: 28px;
+  color: #c5a36a;
+}
+
+.date {
+  font-size: 23px;
+  letter-spacing: 3px;
+  color: #967548;
+}
+
+.divider {
+  width: 65%;
+  border-top: 1px solid #c8ad7e;
+  margin: 28px auto;
+}
+
+.details {
+  font-size: 17px;
+  line-height: 2;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  background: #a78a5b;
+  color: white;
+  padding: 14px 25px;
+  font-size: 15px;
+  margin: 12px;
+}
+
+.footer {
+  margin-top: 35px;
+  font-style: italic;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="top">
+بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+</div>
+
+<div class="flower">❀</div>
+
+<p class="small">IN THE NAME OF ALLAH</p>
+
+<p>With the blessings of Almighty Allah</p>
+
+<p>We joyfully invite you to celebrate the Nikah of</p>
+
+<h1>Afiya</h1>
+
+<div class="amp">&</div>
+
+<h1>Shihas</h1>
+
+<div class="flower">❀</div>
+
+<div class="divider"></div>
+
+<p class="small">SAVE THE DATE</p>
+
+<p class="date">11 JANUARY 2027</p>
+
+<div class="divider"></div>
+
+<div class="details">
+<b>THE NIKAH CEREMONY</b>
+<br><br>
+Time: To be announced
+<br>
+Venue: To be announced
+</div>
+
+<div class="divider"></div>
+
+<p class="details">
+Your presence and duas<br>
+will make our celebration special.
+</p>
+
+<button onclick="playMusic()">
+♫ Play Background Music
+</button>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="footer">
+With love and duas
+<br>
+❀ Afiya & Shihas ❀
+</div>
+
+</div>
+
+<script>
+function playMusic() {
+  const music = document.getElementById("music");
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
+}
+</script>
+
+</body>
+</html>
